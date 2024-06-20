@@ -1,3 +1,28 @@
-.titulo:hover{
-    color: blue;
+* {
+    font-family: 'lobster' , cursive ;
+}
+
+.contact-form {
+    font-size: 25px;
+}
+
+.contact-form__h2{
+    font-size: 2em;
+    color: red;
+}
+
+h2{
+    display: block;
+    height: 100px;
+    background-color: aquamarine;
+}
+
+p {
+    background-color: chartreuse;
+}
+
+b {
+    display: block;
+    background-color: orange;
+    font-size: 25PX;
 }
