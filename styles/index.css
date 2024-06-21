@@ -11,18 +11,14 @@
     color: red;
 }
 
-h2{
-    display: block;
-    height: 100px;
-    background-color: aquamarine;
+.h2-caja {
+    background-color: yellowgreen;
+    display: inline-block;  /* Para que se comporte como elemento en linea con propiedades de un bloque */ 
+    padding: 100px;
+    margin: 10px;
+    text-align: center;
+    border-radius: 25%;
+   box-shadow: 2px 4px 10px  black; /*  Sombras [ Eje x  - Eje Y - Tamaño_Desenfoque - Borde - Color ] */
+   transform: rotate(-45deg);
 }
 
-p {
-    background-color: chartreuse;
-}
-
-b {
-    display: block;
-    background-color: orange;
-    font-size: 25PX;
-}
