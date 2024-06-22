@@ -1,24 +1,5 @@
 * {
     font-family: 'lobster' , cursive ;
-}
-
-.contact-form {
-    font-size: 25px;
-}
-
-.contact-form__h2{
-    font-size: 2em;
-    color: red;
-}
-
-.h2-caja {
-    background-color: yellowgreen;
-    display: inline-block;  /* Para que se comporte como elemento en linea con propiedades de un bloque */ 
-    padding: 100px;
-    margin: 10px;
-    text-align: center;
-    border-radius: 25%;
-   box-shadow: 2px 4px 10px  black; /*  Sombras [ Eje x  - Eje Y - Tamaño_Desenfoque - Borde - Color ] */
-   transform: rotate(-45deg);
+    font-size: 40px;
 }
 
