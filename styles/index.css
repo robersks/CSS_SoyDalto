@@ -4,5 +4,23 @@
 }
 
 body {
-    background: gray;
+    background: gainsboro;
+    padding-top: 50px;
+    padding: 30px;
+}
+
+.container {
+    border: 5px solid orangered; /* Borde del div */
+    background: black; /* fondo de la caja */
+    margin:auto; /* centrar un bloque */
+    width: 300px;
+    height: 600px;
+}
+
+.container__img1{
+    border: 5px solid blue; /* Para ver el espacio que ocupa la  imagen en el div*/
+    width: 100%;   /* Ocupar el 100% de la caja */
+    height: 100%; /* Ocupar el 100% de la caja */
+    object-fit: cover; /* AJUSTAR tamaño de imagen */
+    object-position: bottom; /* acomodar ABAJO */
 }
