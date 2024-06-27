@@ -2,28 +2,24 @@
     font-family:sans-serif;
 }
 
-
-.post {
-    background: #ddd;
-    width: 45vw;
-    padding: 2%;
-    outline: 1px solid blue;
-    display: inline-block; /* uno al lado del otro */
-
+/* ocultar menu responsive miestras esté en pc */
+.nav__responsive-ul{
+    display: none;
 }
 
-h2{
-    color: blue;
+nav{
+    background: slateblue;
 }
 
-/* Cuando una imagen es menor a 500px en ancho, aplica estas propiedades */
-@media only screen and (max-width: 800px )  { 
-    .post{
-        display: block; /* Se comportarán como bloque*/
-        width: 100vw;
-        outline: 1px solid orangered;
-    }
-    h2{
-        color: orangered;
-    }
+.nav__li{
+    display: inline-block; /* que los elementos se pongan en linea */
+    padding: 12px;  
+    color: #FFF; /* Color a los iconos */
+}
+
+/* acceder a los elementos enlace del menu */
+.nav__li a{
+    color: #FFF; /* cambiar color al texto del menu */
+    margin-left: 10px; /* separar texto del icono */ 
+    text-decoration: none; /* Quitar subrayado del menu */
 }
