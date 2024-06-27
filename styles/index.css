@@ -1,20 +1,29 @@
 *{
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    font-size: 50px;
+    font-family:sans-serif;
 }
 
-body {
-    background: rgb(243, 243, 243);
-    padding-top: 50px;
-    padding: 30px;
+
+.post {
+    background: #ddd;
+    width: 45vw;
+    padding: 2%;
+    outline: 1px solid blue;
+    display: inline-block; /* uno al lado del otro */
+
 }
 
-.caja{
-    height: 300px;
-    width: 300px;
-    margin: auto; /* Centrar el bloque en eje x */
-    background: pink;
-    border: 2px solid red;
+h2{
+    color: blue;
+}
 
-    cursor: row-resize; /* Cursor de ajuste de tamaño */
+/* Cuando una imagen es menor a 500px en ancho, aplica estas propiedades */
+@media only screen and (max-width: 800px )  { 
+    .post{
+        display: block; /* Se comportarán como bloque*/
+        width: 100vw;
+        outline: 1px solid orangered;
+    }
+    h2{
+        color: orangered;
+    }
 }
