@@ -1,3 +1,16 @@
 *{
     font-family:sans-serif;
 }
+
+/* Se aplica FLEXBOX al container */ 
+.flex-container{
+    background: darkgreen;
+    display: flex;
+}
+
+/* Aplicar estilos SIN TENER ENCUENTA TAMAÑOS  */
+.flex-container__item{
+    background: yellowgreen;
+    margin: 5px;
+    padding: 10px;
+}
