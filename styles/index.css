@@ -5,9 +5,16 @@
 /* Se aplica FLEXBOX al container */ 
 .flex-container{
     display: flex;
+    background: lightblue;
+    
     flex-direction: row; /* hacer que se pongan en fila */
     flex-wrap:wrap; /* Hacer que se caigan los que no caben al ancho de la resolución */
-    justify-content:space-evenly;   /* la separacion es la misma siempre  */
+    
+    justify-content:center;   /* la separacion es la misma siempre  */
+    
+    /* ALINIAR EN EL CROSS AXIS */
+    height:100vh; /* Obligatorio */
+    /* align-content: center;  */     /* Para aliniar más de una fila */
 }
 
 /* Aplicar estilos SIN TENER ENCUENTA TAMAÑOS  */
@@ -25,4 +32,7 @@
 
 .black {
     background: black;
+
+    /* Cross Axis a un solo elemento*/
+    align-self: center ;
 }
