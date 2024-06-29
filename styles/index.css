@@ -4,13 +4,25 @@
 
 /* Se aplica FLEXBOX al container */ 
 .flex-container{
-    background: darkgreen;
     display: flex;
+    flex-direction: row; /* hacer que se pongan en fila */
+    flex-wrap:wrap; /* Hacer que se caigan los que no caben al ancho de la resolución */
+    justify-content:space-evenly;   /* la separacion es la misma siempre  */
 }
 
 /* Aplicar estilos SIN TENER ENCUENTA TAMAÑOS  */
 .flex-container__item{
-    background: yellowgreen;
+    background: rgb(31, 91, 170);
     margin: 5px;
-    padding: 10px;
+    height: 100px;
+    min-width: 100px;
+
+}
+
+.orange {
+    background: orangered;
+}
+
+.black {
+    background: black;
 }
