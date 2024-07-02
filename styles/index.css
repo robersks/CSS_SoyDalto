@@ -7,10 +7,10 @@
     display: flex;
     background: lightblue;
     
-    flex-direction: row; /* hacer que se pongan en fila */
-    flex-wrap:wrap; /* Hacer que se caigan los que no caben al ancho de la resolución */
+
     
-    justify-content:center;   /* la separacion es la misma siempre  */
+   
+
     
     /* ALINIAR EN EL CROSS AXIS */
     height:100vh; /* Obligatorio */
@@ -22,17 +22,17 @@
     background: rgb(31, 91, 170);
     margin: 5px;
     height: 100px;
-    min-width: 100px;
-
+    min-width: 200px; /* IMPORTANTE PARA EL TEMA */
 }
 
 .orange {
     background: orangered;
+   
+    flex-grow: 1;
 }
 
 .black {
     background: black;
+    flex-grow: 3;
 
-    /* Cross Axis a un solo elemento*/
-    align-self: center ;
 }
