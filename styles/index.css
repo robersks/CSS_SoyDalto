@@ -27,12 +27,11 @@
 
 .orange {
     background: orangered;
-   
     flex-grow: 1;
 }
 
 .black {
     background: black;
-    flex-grow: 3;
-
 }
+
+
